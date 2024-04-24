@@ -5,6 +5,7 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: #333;
 }
 
 #cabecera{
@@ -14,6 +15,14 @@ body{
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+#cabecera #imagen{
+    width: 50px; /* Ancho de la imagen */
+    height: auto;  /* Altura de la imagen ajustado automaticamente */
+    margin-right: 20px;  /* Espacio entre la imagen y el texto */
 }
 
 #cabecera #tagline{
@@ -28,6 +37,7 @@ body{
     text-align: left;
     border: 3px solid #DDD;
     margin: 0 auto;
+    background-color: white;
 }
 
 #container h1{
